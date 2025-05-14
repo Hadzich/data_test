@@ -35,6 +35,18 @@ sentence\ttag1, tag2, tag3
 i. each sentence followed by a TAB and then comma-delimited list of tags that match.  If no tags apply, the output line
 should be just the sentence.
 
+Here is example of the output using couple sentences from [sentences](data/sentences.txt) with comments above each sentence
+```aiignore
+...
+# due to match of 'car loan' in the keywords for  "Vehicle Loan" tag and 'interest rate' in the keywords for "Credit Card"
+I need to know my interest rate on my car loan\tVehicle Loan, Credit Card
+# no tag assigned since no matches were found for any keywords in tags.csv
+Change of address\t
+#  due to match of 'CD' in the keywords for "Investing"
+CD rates\tInvesting
+...
+```
+
 The output file should be named: *task_1_output.tsv* 
 
 # Task 2

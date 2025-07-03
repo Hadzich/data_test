@@ -8,7 +8,7 @@ This repository implements:
 
 All three can be run together with the provided runner script.
 
-## 🛠️ Installation
+## 🛠️ Installation and running script
 
 
 1. Clone this repo and `cd` into it.  
